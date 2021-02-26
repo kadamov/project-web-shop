@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MbmStore.Models
 {
-    public class OrderItem : Product
+    public class OrderItem 
     {
         
     }
