@@ -1,0 +1,42 @@
+﻿@using MbmStore.Models;
+
+@{
+    
+    Layout = null;
+    
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <p>@ViewBag.Customer1.FirstName @ViewBag.Customer1.LastName</p>
+        <p>@ViewBag.Customer1.Address</p>
+        <p>@ViewBag.Customer1.Zip @ViewBag.Customer1.City</p>
+    </div>
+    <div>
+        <p>@ViewBag.Customer2.FirstName @ViewBag.Customer2.LastName</p>
+        <p>@ViewBag.Customer2.Address</p>
+        <p>@ViewBag.Customer2.Zip @ViewBag.Customer2.City</p>
+    </div>
+    <div>
+        <p>@ViewBag.Customer3.FirstName @ViewBag.Customer3.LastName</p>
+        <p>@ViewBag.Customer3.Address</p>
+        <p>@ViewBag.Customer3.Zip @ViewBag.Customer3.City</p>
+    </div>
+    <br />
+    <div>
+        @foreach (Customer user in ViewBag.Customers)
+        {
+        <p>@user.FirstName @user.LastName is @user.Age years old. @string.Join(", ", user.PhoneNumbers) </p>
+        <p>@user.Address</p>
+        <p>@user.Zip @user.City</p>
+        }
+    </div>
+</body>
+</html>

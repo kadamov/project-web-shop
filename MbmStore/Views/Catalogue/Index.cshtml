@@ -1,0 +1,78 @@
+﻿@using MbmStore.Models; 
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View</title>
+    <style>
+        
+        .flex{
+            display:inline-flex;
+        }
+        .flex div{
+            margin: 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div>
+            <h1>The Movies</h1>
+            @foreach (var movie in ViewBag.Movies)
+            {
+                <div>
+                    <p><b>Title:</b>@movie.Title</p>
+                    <p><b>Director:</b>@movie.Director</p>
+                    <p><b>Price:</b>@movie.Price</p>
+                    <img src="~/Images/@movie.ImageFileName" alt="@movie.ImageFileName" />
+                </div>
+            }
+        </div>
+        <div>
+            <h1>The Books</h1>
+            @foreach (var book in ViewBag.Books)
+            {<div>
+                    <p><b>Title:</b> @book.Title</p>
+                    <p><b>Author:</b> @book.Author</p>
+                    <p><b>Price:</b> @book.Price</p>
+                    <p><b>Publisher:</b> @book.Publisher</p>
+                    <p><b>ISBN:</b> @book.ISBN</p>
+                    <img src="Images/@book.ImageFileName" alt="@book.ImageFileName" width="250" />
+                </div>
+            }
+        </div>
+        <div>
+            <h1>The Music</h1>
+            @foreach (var musicCD in ViewBag.MusicCDs)
+            {
+                <div>
+                    <div>
+                        <p><b>Album:</b> @musicCD.Title</p>
+                        <p><b>Artist:</b> @musicCD.Artist</p>
+                        <p><b>Price:</b> @musicCD.Price</p>
+                        <p><b>Label:</b> @musicCD.Label</p>
+                        <img src="~/Images/@musicCD.ImageFileName" alt="@musicCD.ImageFileName" width="250" />
+                    </div>
+                    <div>
+                        <p><b>Tracks:</b></p>
+                        <ol>
+                            @foreach (var track in musicCD.Tracks)
+                            {
+                                <li>@track.Title (@track.Composer) @track.Length.Minutes:@track.Length.Seconds</li>
+                            }
+                        </ol>
+                        <p><b>Total playing time:</b> @musicCD.GetPlayingTime() </p>
+
+                    </div>
+                </div>
+            }
+        </div>
+        </div>
+</body>
+</html>
