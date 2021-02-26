@@ -10,7 +10,21 @@ namespace MbmStore.Models
     {
         //properties
         public string Title { get; set; }
-        public decimal Price { get; set; }
+        public decimal Price
+        {
+            set
+            {
+                if (value <= 0)
+                {
+                    throw new Exception("Price is not accepted");
+                }
+                else
+                {
+                    Price = value;
+                }
+            }
+            get { return Price; }
+        }
         public string ImageFileName { get; set; }
 
         public Product()

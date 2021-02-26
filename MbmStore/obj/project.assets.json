@@ -6662,19 +6662,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kadam\\.nuget\\packages\\": {}
+    "C:\\Users\\Jakob\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SCHOOL\\BAA\\Backend\\GITHUB\\Assignment-1\\project-web-shop\\MbmStore\\MbmStore.csproj",
+      "projectUniqueName": "C:\\Users\\Jakob\\Dropbox\\Jakob Web's shared workspace\\semester-1\\Lesson02_MbmStore_startup\\MbmStore\\MbmStore.csproj",
       "projectName": "MbmStore",
-      "projectPath": "D:\\SCHOOL\\BAA\\Backend\\GITHUB\\Assignment-1\\project-web-shop\\MbmStore\\MbmStore.csproj",
-      "packagesPath": "C:\\Users\\kadam\\.nuget\\packages\\",
-      "outputPath": "D:\\SCHOOL\\BAA\\Backend\\GITHUB\\Assignment-1\\project-web-shop\\MbmStore\\obj\\",
+      "projectPath": "C:\\Users\\Jakob\\Dropbox\\Jakob Web's shared workspace\\semester-1\\Lesson02_MbmStore_startup\\MbmStore\\MbmStore.csproj",
+      "packagesPath": "C:\\Users\\Jakob\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jakob\\Dropbox\\Jakob Web's shared workspace\\semester-1\\Lesson02_MbmStore_startup\\MbmStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kadam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jakob\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6729,7 +6729,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

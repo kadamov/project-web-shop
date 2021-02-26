@@ -6,50 +6,24 @@ using System.Web;
 
 namespace MbmStore.Models
 {
-    public class Movie
+    public class Movie : Product
     {
-        // fields
-        private decimal price;
-
         // properties
-        public string Title { get; }
-
-        public string ImageFileName {
-            set; get;
-        }
 
         public string Director { get; private set; }
 
-        public decimal Price
-        {
-            set
-            {
-                if (value <= 0)
-                {
-                    throw new Exception("Price is not accepted");
-                }
-                else
-                {
-                    price = value;
-                }
-            }
-            get { return price; }
-        }
+        
 
 
         // constructors
-        public Movie() { }
-
-        public Movie(string title, decimal price)
+        public Movie() 
         {
-            Title = title;
-            this.price = price;
+            
         }
-
-        public Movie(string title, decimal price, string imageFileName, string director)
+        public Movie(string title, decimal price, string imageFileName, string director) : base(title, price)
         {
             Title = title;
-            this.price = price;
+            Price = price;
             ImageFileName = imageFileName;
             Director = director;
         }
