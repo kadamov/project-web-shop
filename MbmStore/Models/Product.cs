@@ -8,6 +8,8 @@ namespace MbmStore.Models
 {
     public class Product
     {
+        //fields
+        private decimal price;
         //properties
         public string Title { get; set; }
         public decimal Price
@@ -20,10 +22,10 @@ namespace MbmStore.Models
                 }
                 else
                 {
-                    Price = value;
+                    price = value;
                 }
             }
-            get { return Price; }
+            get { return price; }
         }
         public string ImageFileName { get; set; }
 
