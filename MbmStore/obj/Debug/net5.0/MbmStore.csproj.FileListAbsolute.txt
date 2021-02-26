@@ -226,3 +226,14 @@ C:\Users\Jakob\Dropbox\Jakob Web's shared workspace\semester-1\Lesson02_MbmStore
 C:\Users\Jakob\Dropbox\Jakob Web's shared workspace\semester-1\Lesson02_MbmStore_startup\MbmStore\obj\Debug\net5.0\MbmStore.genruntimeconfig.cache
 C:\Users\Jakob\Dropbox\Jakob Web's shared workspace\semester-1\Lesson02_MbmStore_startup\MbmStore\obj\Debug\net5.0\Razor\Views\Customer\Index.cshtml.g.cs
 C:\Users\Jakob\Dropbox\Jakob Web's shared workspace\semester-1\Lesson02_MbmStore_startup\MbmStore\obj\Debug\net5.0\Razor\Views\Catalogue\Index.cshtml.g.cs
+D:\SCHOOL\BAA\Backend\GITHUB\Assignment-1\project-web-shop\MbmStore\obj\Debug\net5.0\MbmStore.csprojAssemblyReference.cache
+D:\SCHOOL\BAA\Backend\GITHUB\Assignment-1\project-web-shop\MbmStore\obj\Debug\net5.0\MbmStore.GeneratedMSBuildEditorConfig.editorconfig
+D:\SCHOOL\BAA\Backend\GITHUB\Assignment-1\project-web-shop\MbmStore\obj\Debug\net5.0\MbmStore.AssemblyInfoInputs.cache
+D:\SCHOOL\BAA\Backend\GITHUB\Assignment-1\project-web-shop\MbmStore\obj\Debug\net5.0\MbmStore.AssemblyInfo.cs
+D:\SCHOOL\BAA\Backend\GITHUB\Assignment-1\project-web-shop\MbmStore\obj\Debug\net5.0\MbmStore.csproj.CoreCompileInputs.cache
+D:\SCHOOL\BAA\Backend\GITHUB\Assignment-1\project-web-shop\MbmStore\obj\Debug\net5.0\MbmStore.MvcApplicationPartsAssemblyInfo.cache
+D:\SCHOOL\BAA\Backend\GITHUB\Assignment-1\project-web-shop\MbmStore\obj\Debug\net5.0\MbmStore.RazorAssemblyInfo.cache
+D:\SCHOOL\BAA\Backend\GITHUB\Assignment-1\project-web-shop\MbmStore\obj\Debug\net5.0\MbmStore.RazorAssemblyInfo.cs
+D:\SCHOOL\BAA\Backend\GITHUB\Assignment-1\project-web-shop\MbmStore\obj\Debug\net5.0\MbmStore.dll
+D:\SCHOOL\BAA\Backend\GITHUB\Assignment-1\project-web-shop\MbmStore\obj\Debug\net5.0\ref\MbmStore.dll
+D:\SCHOOL\BAA\Backend\GITHUB\Assignment-1\project-web-shop\MbmStore\obj\Debug\net5.0\MbmStore.pdb
