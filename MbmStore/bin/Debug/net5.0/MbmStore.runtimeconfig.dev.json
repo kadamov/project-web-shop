@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\kadam\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\kadam\\.nuget\\packages"
-    ]
-  }
-}
